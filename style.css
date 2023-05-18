@@ -28,3 +28,13 @@ body{
         margin: 0; 
         padding: 0;
     }
+div {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  div {
+    flex-direction: column;
+  }
+}
