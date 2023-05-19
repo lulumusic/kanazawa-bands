@@ -1,14 +1,18 @@
 /* ページ全体のスタイル */
 body {
-  font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
-  font-size: 16px; /* フォントサイズを固定 */
-  background-color: rgba(255, 255, 255, 0.721);
-  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
+  background-color: rgba(255, 255, 255, 0.721);
+  color: black;
+  
 }
 
 h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 16px;
   padding: 0.5em 0; /* 上下の余白を調整 */
   color: #494949;
   background: transparent;
@@ -18,6 +22,7 @@ h2 {
 p {
   line-height: 1.6; /* 行間を狭く */
   margin-bottom: 1em; /* 段落の下に余白を追加 */
+  margin-bottom: 16px;
 }
 
 .box3 {
