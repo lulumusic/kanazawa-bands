@@ -1,45 +1,45 @@
 /* ページ全体のスタイル */
 body {
-    font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
-    font-size: 16px; /* フォントサイズを固定 */
-    background-color: rgba(255, 255, 255, 0.721);
-    color: black;
-    margin: 0;
-    padding: 0;
+  font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
+  font-size: 16px; /* フォントサイズを固定 */
+  background-color: rgba(255, 255, 255, 0.721);
+  color: black;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
-    padding: 0.5em 0; /* 上下の余白を調整 */
-    color: #494949;
-    background: transparent;
-    border-left: solid 5px #7db4e6;
+  padding: 0.5em 0; /* 上下の余白を調整 */
+  color: #494949;
+  background: transparent;
+  border-left: solid 5px #7db4e6;
 }
 
 p {
-    line-height: 1.6; /* 行間を狭く */
-    margin-bottom: 1em; /* 段落の下に余白を追加 */
+  line-height: 1.6; /* 行間を狭く */
+  margin-bottom: 1em; /* 段落の下に余白を追加 */
 }
 
 .box3 {
-    padding: 0.5em 1em;
-    margin: 1em; /* 余白を縮小 */
-    color: #2c2c2f;
-    background: whitesmoke;
+  padding: 0.5em 1em;
+  margin: 1em; /* 余白を縮小 */
+  color: #2c2c2f;
+  background: whitesmoke;
 }
 
 .box3 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 div img {
-    margin-bottom: 1em;
-    max-width: 100%; /* 画像の幅を最大に */
+  margin-bottom: 1em;
+  max-width: 100%; /* 画像の幅を最大に */
 }
 
 .thumbnail-image {
