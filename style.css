@@ -2,46 +2,44 @@
 
 /* ページ全体のスタイル */
 body {
-  font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
-  font-size: 1.5em;
-  background-color: rgba(255, 255, 255, 0.721);
-  color: black;
-  margin: 0;
-  padding: 0;
-}
-
-h2 {
-  padding: 0.25em 0.5em; /* 上下 左右の余白 */
-  color: #494949; /* 文字色 */
-  background: transparent; /* 背景透明に */
-  border-left: solid 5px #7db4e6; /* 左線 */
-}
-
-p {
-  line-height: 2.5;
-}
-
-.box3 {
-  padding: 0.5em 1em;
-  margin: 2em auto;
-  color: #2c2c2f;
-  background: whitesmoke; /* 背景色 */
-  width: 80%; /* ボックスの幅を指定（例：80%） */
-  max-width: 800px; /* ボックスの最大幅を指定（例：800px） */
-}
-
-.box3 p {
-  margin: 0;
-  padding: 0;
-}
-
-div {
-  display: flex;
-  flex-direction: row;
-}
-
-@media (max-width: 600px) {
+    font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.721);
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    padding: 0.25em 0.5em; /* 上下 左右の余白 */
+    color: #494949; /* 文字色 */
+    background: transparent; /* 背景透明に */
+    border-left: solid 5px #7db4e6; /* 左線 */
+  }
+  
+  p {
+    line-height: 2.5;
+  }
+  
+  .box3 {
+    padding: 0.5em 1em;
+    margin: 2em 10em;
+    color: #2c2c2f;
+    background: whitesmoke; /* 背景色 */
+  
+  }
+  
+  .box3 p {
+    margin: 0;
+    padding: 0;
+  }
+  
   div {
+    display: flex;
     flex-direction: column;
   }
-}
+  
+  div img {
+    margin-bottom: 1em;
+  }
+  
